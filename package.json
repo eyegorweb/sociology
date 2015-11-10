@@ -1,0 +1,36 @@
+{
+  "name": "solvej",
+  "version": "1.0.0",
+  "description": "blog about sociology",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "stats": "echo '** GENERATED **' && du -skh dist/web-built.min.js && echo ''",
+    "check": "jshint *.js",
+    "uglify": "uglifyjs build.js > dist/web-built.min.js",
+    "build": "browserify index.js -o build.js",
+    "watch": "npm run check && npm run uglify && npm run build && watchify index.js -o build.js -dv"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eyegorweb/sociology.git"
+  },
+  "keywords": [
+    "sociology"
+  ],
+  "author": "Igor Trifunovic, Solvej Hansen-Löve",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eyegorweb/sociology/issues"
+  },
+  "homepage": "https://github.com/eyegorweb/sociology#readme",
+  "devDependencies": {
+    "browserify": "^12.0.1"
+  },
+  "dependencies": {
+    "jshint": "^2.8.0",
+    "uglify-js": "^2.5.0",
+    "watch": "^0.16.0",
+    "watchify": "^3.6.0"
+  }
+}
