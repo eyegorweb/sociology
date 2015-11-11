@@ -1,0 +1,17 @@
+{
+  "name": "solvej-blog",
+  "version": "1.0.0",
+  "description": "blog about sociology",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "'echo \\\"Welcome to the blog about sociology of Sovej! \\\""
+  },
+  "keywords": [
+    "sociology"
+  ],
+  "author": "Solvej Hansen-Löve, Igor Trifunovic",
+  "license": "ISC"
+}
