@@ -21,5 +21,12 @@
   "bugs": {
     "url": "https://github.com/eyegorweb/sociology/issues"
   },
-  "homepage": "https://github.com/eyegorweb/sociology#readme"
+  "homepage": "https://github.com/eyegorweb/sociology#readme",
+  "devDependencies": {},
+  "dependencies": {
+    "browserify": "^12.0.1",
+    "jshint": "^2.8.0",
+    "uglify": "^0.1.5",
+    "watch": "^0.16.0"
+  }
 }
