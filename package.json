@@ -7,7 +7,11 @@
     "test": "test"
   },
   "scripts": {
-    "test": "echo \"Welcome to the blog about sociology of Sovej! \" "
+    "test": "echo \"Welcome to the blog about sociology of Sovej! \" ",
+    "check": "jshint *.js && echo '‣ Your JS code is valid :)'|| (echo '‣ Your JS code is NOT valid :(' && exit 1)",
+    "uglify": "uglify build.js > dist/web-built.min.js",
+    "build": "browserify index.js -o build.js",
+    "watch": "npm run uglify && npm run build && watchify index.js -o build.js -dv"
   },
   "repository": {
     "type": "git",
@@ -27,6 +31,7 @@
     "browserify": "^12.0.1",
     "jshint": "^2.8.0",
     "uglify": "^0.1.5",
-    "watch": "^0.16.0"
+    "watch": "^0.16.0",
+    "watchify": "^3.6.0"
   }
 }

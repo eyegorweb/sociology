@@ -5,3 +5,5 @@
  */
 
 
+var toto = 7;
+var test = 0;
