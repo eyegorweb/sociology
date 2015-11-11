@@ -7,11 +7,19 @@
     "test": "test"
   },
   "scripts": {
-    "test": "'echo \\\"Welcome to the blog about sociology of Sovej! \\\""
+    "test": "echo \"Welcome to the blog about sociology of Sovej! \" "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eyegorweb/sociology.git"
   },
   "keywords": [
     "sociology"
   ],
   "author": "Solvej Hansen-Löve, Igor Trifunovic",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eyegorweb/sociology/issues"
+  },
+  "homepage": "https://github.com/eyegorweb/sociology#readme"
 }
